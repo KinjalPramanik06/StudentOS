@@ -206,14 +206,12 @@ flowchart TD
 | ✅ **Validation** | Zod |
 | ⚙️ **Backend** | Node.js 24 |
 | 🍃 **Database** | MongoDB |
-| 🔥 **Optional** | Firebase Web SDK *(off by default)* |
+| 🔥 **Optional** | Firebase Web SDK |
 | 🧪 **Quality** | Node test runner · GitHub Actions |
 
 ---
 
 ## 🚀 Quick Start
-
-**Requirements:** Node.js 24 and a new, empty MongoDB database.
 
 ```bash
 # 1. Clone
@@ -224,7 +222,7 @@ cd StudentOS
 npm ci
 
 # 3. Configure
-cp .env.example .env        # Windows: Copy-Item .env.example .env
+cp .env.example .env      
 ```
 
 Fill in `.env`:
@@ -233,15 +231,15 @@ Fill in `.env`:
 | :-- | :-- |
 | `MONGODB_URI` | Private MongoDB connection string |
 | `MONGODB_DB` | A **new, empty** database name |
-| `INITIAL_STUDENT_EMAIL` / `INITIAL_STUDENT_PASSWORD` | Student login (password 12–128 chars) |
-| `INITIAL_ADMIN_EMAIL` / `INITIAL_ADMIN_PASSWORD` | Admin login (a *different* password) |
+| `INITIAL_STUDENT_EMAIL` / `INITIAL_STUDENT_PASSWORD` | Student login |
+| `INITIAL_ADMIN_EMAIL` / `INITIAL_ADMIN_PASSWORD` | Admin login |
 | `APP_ORIGIN` | `http://localhost:5500` for development |
 
 ```bash
 # 4. Start the API
 npm run dev:api
 
-# 5. Start the dashboard (second terminal)
+# 5. Start the dashboard 
 npm run dev
 ```
 
@@ -298,10 +296,4 @@ StudentOS/
 
 ### 💡 StudentOS turns scattered records into one clear, trustworthy dashboard.
 
-*Notice attendance risks early. Understand your progress. Keep everything in one place.*
-
-</div>
-
-## 👩‍💻 Author
-
-**Kinjal Pramanik**
+## 👩‍💻 **Kinjal Pramanik**
