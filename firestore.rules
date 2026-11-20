@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // App data remains in MongoDB. No Firebase data access is enabled yet.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
