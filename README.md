@@ -301,3 +301,7 @@ StudentOS/
 *Notice attendance risks early. Understand your progress. Keep everything in one place.*
 
 </div>
+
+## 👩‍💻 Author
+
+**Kinjal Pramanik**
