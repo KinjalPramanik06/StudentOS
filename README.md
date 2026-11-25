@@ -294,6 +294,6 @@ StudentOS/
 
 <div align="center">
 
-### 💡 StudentOS turns scattered records into one clear, trustworthy dashboard.
+### 💡 StudentOS turns scattered records into one clear, trustworthy dashboard
 
 ## 👩‍💻 **Kinjal Pramanik**
